@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe {
+    background-color:hsl(0, 0%, 100%);
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    margin: 100px 0px 100px 0px;
+    padding: 40px;  
+    border-radius: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    color: hsl(24, 5%, 18%);
+    letter-spacing: 2px;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-left: 8px;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 14px;
+    margin-left: -9px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+
+span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: -16px;
+}
+
+.table-border {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+    padding: 14px;
+    padding-left: 32px;
+}
+
+.values {
+    color: hsl(14, 45%, 36%); 
+    font-weight: 600;
+    margin-left: -120px;
+}
+
+hr {
+    background-color: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 20px;
+}
+
+ol, ul {
+    padding-bottom: 10px;
+}
+
+.attribution {
+    margin-bottom: 40px;
+    text-align: center;
+}
