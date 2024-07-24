@@ -1,0 +1,111 @@
+body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    width: 33%;
+    border: 1px solid hsl(0, 0%, 7%);
+    margin: 100px 0px 100px 0px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+svg {
+    border-radius: 15px;
+    padding: -5px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 375px) {
+    svg {
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        background-color: aquamarine;
+    }
+
+    .blog-card {
+        width: 35%;
+        border-radius: 15px;
+    }
+}
+.button {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 800;
+    width: 70px;
+}
+
+.publish-date {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: -5px;
+}
+
+h2 {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    margin-bottom: 0px;
+    
+}
+a {
+    text-decoration: none;
+}
+h2:hover, h2:active {
+    color: hsl(47, 88%, 63%);
+}
+p {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.publisher-info {
+    display: inline-flex;
+    align-items: center;
+}
+.publisher-info img {
+    width: 12%;
+    height: 12%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.publisher-info h5 {
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+h5:hover, h5:active {
+    color: hsl(47, 88%, 63%);;
+}
+
+.attribution {
+    margin-bottom: 40px;
+    text-align: center;
+}
