@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  Font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px 0;
+  width: 80%;
+}
+
+.column {
+  flex: 1;
+  width: 100%;
+  text-align: start;
+  padding-bottom: 60px;
+}
+
+.column:first-child {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 7px 0px 0px 7px;
+}
+.column:last-child {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 7px 7px 0px;
+}
+
+svg {
+  margin-left: 38px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-left: 38px;
+  margin-bottom: 35px;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+}
+
+p {
+  margin-left: 38px;
+  margin-bottom: 6rem;
+  width: 12rem;
+  Font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 26px;
+}
+
+a {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+  margin-left: 38px;
+  border: 1px solid hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  padding: 12px 24px 12px 24px;
+  border-radius: 35px;
+  margin-bottom: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+a:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.a-sed {
+  color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.SUV {
+  margin-left: 38px;
+  margin-bottom: 6rem;
+  width: 13rem;
+  Font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.a-suv {
+  color: hsl(184, 100%, 22%);
+}
+
+.lux {
+  margin-left: 38px;
+  margin-bottom: 6rem;
+  width: 13.6rem;
+  Font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.a-lux {
+  color: hsl(179, 100%, 13%); 
+}
+
+@media screen and (max-width: 980px) {
+  .container .column {
+    flex-basis: 40%;
+    border-radius: 0;
+  }
+  .container .column:last-child {
+    margin: 0;
+    flex-basis: 100%;
+  }
+  .container .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+
+}
+@media screen and (max-width: 680px) {
+  .container .column {
+    flex-basis: 100%;
+  }
+}
